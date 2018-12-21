@@ -8,6 +8,6 @@
 
 def select_winner(passengers)
   passengers.each do |key, value|
-    if key.ends_with?("a") && value.starts_with?("a")
-      
+    if key == :suite_a && value.starts_with?("a")
+
 end
